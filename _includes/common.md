@@ -21,4 +21,4 @@ always the one at this address. Material changes are noted in the app's release 
 
 Questions about privacy, or any request above:
 
-**stevenkilian1987@gmail.com**
+**kgappdevs@gmail.com**
