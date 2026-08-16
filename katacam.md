@@ -4,7 +4,7 @@ title: KataCam Privacy Policy
 
 # KataCam Privacy Policy
 
-**Last updated: 10 August 2026**
+**Last updated: 16 August 2026**
 
 KataCam is a camera and media manager for Android, published by Steven Kilian. This policy
 describes what the app does with your information. Where a feature could look like it collects
@@ -110,6 +110,10 @@ has paid.
 | Network and Wi-Fi state | For local transfers, and to download map tiles |
 | Notifications | To show the ongoing transfer notice and its Stop button |
 | Vibrate | Shutter feedback |
+
+KataCam may also ask, once, for access to its own folder (`DCIM/KataCam`) so it can remove empty
+folders left behind when you delete an album. You choose that folder yourself in Android's file
+picker, access is limited to it, and declining changes nothing except that the empty folders remain.
 
 Location can be refused, or revoked later, and every other feature continues to work.
 
