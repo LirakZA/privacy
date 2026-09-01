@@ -4,7 +4,7 @@ title: KataCam Privacy Policy
 
 # KataCam Privacy Policy
 
-**Last updated: 16 August 2026**
+**Last updated: 1 September 2026**
 
 KataCam is a camera and media manager for Android, published by Steven Kilian. This policy
 describes what the app does with your information. Where a feature could look like it collects
@@ -24,18 +24,32 @@ under `DCIM/KataCam` for photos and video and `Documents/KataCam` for scanned PD
 and writes these through Android's media system, and only for files it created or that you have
 given it access to. They are never uploaded.
 
+**Your phone's own camera folder.** KataCam can show the photos your phone's built-in camera app
+took, in a "Camera Roll" album beside its own. That album is read-only: KataCam will not move,
+rename or delete anything in it. Those files are read from your device's own storage and are never
+uploaded.
+
 **Deleted items.** Deleting inside KataCam moves the file to a "Deleted" album for three days before
 it is removed permanently. During those three days it is still on your device and nowhere else.
 
 **Location, if you turn geotagging on.** Geotagging is off by default. When you switch it on and
 grant location access, the app records your position only while the camera screen is open, keeps
 only the single most recent reading, and writes it into the photo's own GPS tags — the same tags
-every camera app uses. That data lives inside the image file. It is not collected, not stored
-separately, and not transmitted. If you later share that photo, the location travels inside the
-file, as it would from any camera.
+every camera app uses. That data lives inside the image file. It is not collected and not
+transmitted. If you later share that photo, the location travels inside the file, as it would from
+any camera.
 
-**The photo map** reads those tags back from your own photos to place pins. Map imagery comes from
-OpenStreetMap; your photos and their coordinates are never sent to OpenStreetMap or anyone else.
+**The photo map** reads those tags back to place pins. Android hides the location stored inside
+photos that other apps took unless you allow it, so the map asks you once: allow, and it shows every
+photo on the phone that carries a location; decline, and the map still works, showing the photos
+KataCam tagged itself. Map imagery comes from OpenStreetMap; your photos and their coordinates are
+never sent to OpenStreetMap or anyone else.
+
+**The map's index.** Opening a photo to read its tags is slow, and the answer never changes, so
+KataCam keeps a list on the device of which photo had which coordinates rather than re-reading your
+whole library every time. It is held in the app's own private settings, is never transmitted, is
+discarded and rebuilt if your answer to the permission above changes, and is removed when you
+uninstall the app.
 
 **Your settings**, such as the current album and whether geotagging is on, are stored on the device.
 
@@ -94,9 +108,14 @@ component: <https://policies.google.com/privacy>
 ### Purchases
 
 KataCam is free for seven days, after which continued use requires a single one-off purchase. That
-purchase is handled entirely by the app store you installed from — Huawei AppGallery or Google Play.
-We never see or store your payment details. The store tells the app only whether this installation
-has paid.
+purchase is handled entirely by the app store you installed from — Huawei AppGallery or Google Play
+— through that store's own purchasing software, running on your phone. We never see or store your
+payment details. The store tells the app only whether this installation has paid, and that answer is
+remembered on the device so the app keeps working when you have no signal.
+
+The store's own privacy policy covers the purchase itself:
+<https://consumer.huawei.com/en/privacy/privacy-policy/> for AppGallery, and
+<https://policies.google.com/privacy> for Google Play.
 
 ## Permissions, and why each one exists
 
@@ -106,7 +125,7 @@ has paid.
 | Microphone | To record sound with video. Not used for photos |
 | Photos and videos | To show, organise and manage your media |
 | Location (optional) | Only to write GPS tags into photos you take, when geotagging is on |
-| Media location | To read those GPS tags back out of your own photos for the map |
+| Media location (optional) | To read the GPS tags already inside photos on this phone, so the map can include photos other apps took. Declining leaves the map working with KataCam's own |
 | Network and Wi-Fi state | For local transfers, and to download map tiles |
 | Notifications | To show the ongoing transfer notice and its Stop button |
 | Vibrate | Shutter feedback |
