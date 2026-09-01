@@ -92,6 +92,11 @@ channel on Discord. They are used only to diagnose faults and act on feedback, a
 the developer, and are never sold, shared, or used for advertising. They are kept only as long as
 they are useful for fixing the issue.
 
+**These reports leave your country.** Pipedream and Discord are both operated from the United
+States, so a report you send travels there, and the two companies handle it under their own terms.
+Nothing in a report identifies you, and nothing is sent at all unless you switch automatic crash
+reporting on or press Send yourself.
+
 ### Map tiles
 
 Opening the photo map downloads map imagery from OpenStreetMap for the area you are viewing.
