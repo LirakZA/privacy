@@ -129,6 +129,7 @@ The store's own privacy policy covers the purchase itself:
 | Network and Wi-Fi state | For local transfers, and to download map tiles |
 | Notifications | To show the ongoing transfer notice and its Stop button |
 | Vibrate | Shutter feedback |
+| Hide overlay windows | To ask that floating bubbles belonging to other apps be hidden while KataCam is open, so nothing sits on top of the camera. It hides nothing of the system's own, and grants no access to anything |
 
 KataCam may also ask, once, for access to its own folder (`DCIM/KataCam`) so it can remove empty
 folders left behind when you delete an album. You choose that folder yourself in Android's file
